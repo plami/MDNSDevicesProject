@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32952D21239106E8006B3E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32952D20239106E8006B3E56 /* AppDelegate.swift */; };
+		32952D23239106E8006B3E56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32952D22239106E8006B3E56 /* SceneDelegate.swift */; };
+		32952D25239106E8006B3E56 /* ScannerMDNSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32952D24239106E8006B3E56 /* ScannerMDNSViewController.swift */; };
+		32952D28239106E8006B3E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32952D26239106E8006B3E56 /* Main.storyboard */; };
+		32952D2A239106EA006B3E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32952D29239106EA006B3E56 /* Assets.xcassets */; };
+		32952D2D239106EA006B3E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32952D2B239106EA006B3E56 /* LaunchScreen.storyboard */; };
+		32952D4223930429006B3E56 /* MDNSServiceWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32952D4123930429006B3E56 /* MDNSServiceWorker.swift */; };
+		32952D4623930593006B3E56 /* MDNSServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32952D4523930593006B3E56 /* MDNSServiceModel.swift */; };
+		32952D4823930B59006B3E56 /* MDNSInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32952D4723930B59006B3E56 /* MDNSInteractor.swift */; };
+		32952D4A23930BC7006B3E56 /* MDNSPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32952D4923930BC7006B3E56 /* MDNSPresenter.swift */; };
+		32952D4C23930C64006B3E56 /* MDNSConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32952D4B23930C64006B3E56 /* MDNSConfigurator.swift */; };
+		32952D4E23930D32006B3E56 /* MDNSRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32952D4D23930D32006B3E56 /* MDNSRouter.swift */; };
+		32952D512393C020006B3E56 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32952D502393C020006B3E56 /* AlertService.swift */; };
+		32952D542393C5DE006B3E56 /* ArrayExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32952D532393C5DE006B3E56 /* ArrayExtended.swift */; };
+		32952D562393D453006B3E56 /* DataSourceAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32952D552393D453006B3E56 /* DataSourceAdapter.swift */; };
+		32952D592393D68C006B3E56 /* MDNSTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32952D582393D68C006B3E56 /* MDNSTableViewCell.swift */; };
+		471C430AFFBFBF9E0249F48E /* Pods_MDNSDevicesProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2826356E556DDA985316C642 /* Pods_MDNSDevicesProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2826356E556DDA985316C642 /* Pods_MDNSDevicesProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDNSDevicesProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32952D1D239106E8006B3E56 /* MDNSDevicesProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDNSDevicesProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32952D20239106E8006B3E56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32952D22239106E8006B3E56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32952D24239106E8006B3E56 /* ScannerMDNSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerMDNSViewController.swift; sourceTree = "<group>"; };
+		32952D27239106E8006B3E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32952D29239106EA006B3E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32952D2C239106EA006B3E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32952D2E239106EA006B3E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32952D4123930429006B3E56 /* MDNSServiceWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDNSServiceWorker.swift; sourceTree = "<group>"; };
+		32952D4523930593006B3E56 /* MDNSServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDNSServiceModel.swift; sourceTree = "<group>"; };
+		32952D4723930B59006B3E56 /* MDNSInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDNSInteractor.swift; sourceTree = "<group>"; };
+		32952D4923930BC7006B3E56 /* MDNSPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDNSPresenter.swift; sourceTree = "<group>"; };
+		32952D4B23930C64006B3E56 /* MDNSConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDNSConfigurator.swift; sourceTree = "<group>"; };
+		32952D4D23930D32006B3E56 /* MDNSRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDNSRouter.swift; sourceTree = "<group>"; };
+		32952D502393C020006B3E56 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		32952D532393C5DE006B3E56 /* ArrayExtended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtended.swift; sourceTree = "<group>"; };
+		32952D552393D453006B3E56 /* DataSourceAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceAdapter.swift; sourceTree = "<group>"; };
+		32952D582393D68C006B3E56 /* MDNSTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDNSTableViewCell.swift; sourceTree = "<group>"; };
+		58ECDFD28A34AA136C310132 /* Pods-MDNSDevicesProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDNSDevicesProject.debug.xcconfig"; path = "Target Support Files/Pods-MDNSDevicesProject/Pods-MDNSDevicesProject.debug.xcconfig"; sourceTree = "<group>"; };
+		E63E68359E774103098A2320 /* Pods-MDNSDevicesProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDNSDevicesProject.release.xcconfig"; path = "Target Support Files/Pods-MDNSDevicesProject/Pods-MDNSDevicesProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32952D1A239106E8006B3E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471C430AFFBFBF9E0249F48E /* Pods_MDNSDevicesProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32952D14239106E8006B3E56 = {
+			isa = PBXGroup;
+			children = (
+				32952D1F239106E8006B3E56 /* MDNSDevicesProject */,
+				32952D1E239106E8006B3E56 /* Products */,
+				6862662A39A2334D864C470E /* Pods */,
+				B00BAC39491D166C2D988392 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32952D1E239106E8006B3E56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32952D1D239106E8006B3E56 /* MDNSDevicesProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32952D1F239106E8006B3E56 /* MDNSDevicesProject */ = {
+			isa = PBXGroup;
+			children = (
+				32952D572393D66D006B3E56 /* Cells */,
+				32952D4F2393C00A006B3E56 /* Utils */,
+				32952D442393057C006B3E56 /* Model */,
+				32952D402392AC5E006B3E56 /* MDNSDevices */,
+				32952D20239106E8006B3E56 /* AppDelegate.swift */,
+				32952D22239106E8006B3E56 /* SceneDelegate.swift */,
+				32952D26239106E8006B3E56 /* Main.storyboard */,
+				32952D29239106EA006B3E56 /* Assets.xcassets */,
+				32952D2B239106EA006B3E56 /* LaunchScreen.storyboard */,
+				32952D2E239106EA006B3E56 /* Info.plist */,
+			);
+			path = MDNSDevicesProject;
+			sourceTree = "<group>";
+		};
+		32952D402392AC5E006B3E56 /* MDNSDevices */ = {
+			isa = PBXGroup;
+			children = (
+				32952D24239106E8006B3E56 /* ScannerMDNSViewController.swift */,
+				32952D4123930429006B3E56 /* MDNSServiceWorker.swift */,
+				32952D4723930B59006B3E56 /* MDNSInteractor.swift */,
+				32952D4923930BC7006B3E56 /* MDNSPresenter.swift */,
+				32952D4B23930C64006B3E56 /* MDNSConfigurator.swift */,
+				32952D4D23930D32006B3E56 /* MDNSRouter.swift */,
+			);
+			path = MDNSDevices;
+			sourceTree = "<group>";
+		};
+		32952D442393057C006B3E56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32952D4523930593006B3E56 /* MDNSServiceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32952D4F2393C00A006B3E56 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				32952D502393C020006B3E56 /* AlertService.swift */,
+				32952D532393C5DE006B3E56 /* ArrayExtended.swift */,
+				32952D552393D453006B3E56 /* DataSourceAdapter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		32952D572393D66D006B3E56 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				32952D582393D68C006B3E56 /* MDNSTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6862662A39A2334D864C470E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58ECDFD28A34AA136C310132 /* Pods-MDNSDevicesProject.debug.xcconfig */,
+				E63E68359E774103098A2320 /* Pods-MDNSDevicesProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B00BAC39491D166C2D988392 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2826356E556DDA985316C642 /* Pods_MDNSDevicesProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32952D1C239106E8006B3E56 /* MDNSDevicesProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32952D31239106EA006B3E56 /* Build configuration list for PBXNativeTarget "MDNSDevicesProject" */;
+			buildPhases = (
+				0BF5B4160B8CA46F2365F9F9 /* [CP] Check Pods Manifest.lock */,
+				32952D19239106E8006B3E56 /* Sources */,
+				32952D1A239106E8006B3E56 /* Frameworks */,
+				32952D1B239106E8006B3E56 /* Resources */,
+				F0C1966083C03BD75E935A93 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDNSDevicesProject;
+			productName = MDNSDevicesProject;
+			productReference = 32952D1D239106E8006B3E56 /* MDNSDevicesProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32952D15239106E8006B3E56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = plamena;
+				TargetAttributes = {
+					32952D1C239106E8006B3E56 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 32952D18239106E8006B3E56 /* Build configuration list for PBXProject "MDNSDevicesProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32952D14239106E8006B3E56;
+			productRefGroup = 32952D1E239106E8006B3E56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32952D1C239106E8006B3E56 /* MDNSDevicesProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32952D1B239106E8006B3E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32952D2D239106EA006B3E56 /* LaunchScreen.storyboard in Resources */,
+				32952D2A239106EA006B3E56 /* Assets.xcassets in Resources */,
+				32952D28239106E8006B3E56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BF5B4160B8CA46F2365F9F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDNSDevicesProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0C1966083C03BD75E935A93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MDNSDevicesProject/Pods-MDNSDevicesProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MDNSDevicesProject/Pods-MDNSDevicesProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MDNSDevicesProject/Pods-MDNSDevicesProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32952D19239106E8006B3E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32952D4823930B59006B3E56 /* MDNSInteractor.swift in Sources */,
+				32952D512393C020006B3E56 /* AlertService.swift in Sources */,
+				32952D562393D453006B3E56 /* DataSourceAdapter.swift in Sources */,
+				32952D25239106E8006B3E56 /* ScannerMDNSViewController.swift in Sources */,
+				32952D542393C5DE006B3E56 /* ArrayExtended.swift in Sources */,
+				32952D21239106E8006B3E56 /* AppDelegate.swift in Sources */,
+				32952D23239106E8006B3E56 /* SceneDelegate.swift in Sources */,
+				32952D592393D68C006B3E56 /* MDNSTableViewCell.swift in Sources */,
+				32952D4E23930D32006B3E56 /* MDNSRouter.swift in Sources */,
+				32952D4C23930C64006B3E56 /* MDNSConfigurator.swift in Sources */,
+				32952D4623930593006B3E56 /* MDNSServiceModel.swift in Sources */,
+				32952D4223930429006B3E56 /* MDNSServiceWorker.swift in Sources */,
+				32952D4A23930BC7006B3E56 /* MDNSPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32952D26239106E8006B3E56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32952D27239106E8006B3E56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32952D2B239106EA006B3E56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32952D2C239106EA006B3E56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32952D2F239106EA006B3E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32952D30239106EA006B3E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32952D32239106EA006B3E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58ECDFD28A34AA136C310132 /* Pods-MDNSDevicesProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GECEU38F23;
+				INFOPLIST_FILE = MDNSDevicesProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plamena.MDNSDevicesProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32952D33239106EA006B3E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E63E68359E774103098A2320 /* Pods-MDNSDevicesProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GECEU38F23;
+				INFOPLIST_FILE = MDNSDevicesProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plamena.MDNSDevicesProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32952D18239106E8006B3E56 /* Build configuration list for PBXProject "MDNSDevicesProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32952D2F239106EA006B3E56 /* Debug */,
+				32952D30239106EA006B3E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32952D31239106EA006B3E56 /* Build configuration list for PBXNativeTarget "MDNSDevicesProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32952D32239106EA006B3E56 /* Debug */,
+				32952D33239106EA006B3E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32952D15239106E8006B3E56 /* Project object */;
+}
